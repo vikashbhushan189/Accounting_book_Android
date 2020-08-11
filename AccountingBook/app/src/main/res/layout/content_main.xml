@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#4F673AB7"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/UId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:fontFamily="@font/andika"/>
+
+    <TextView
+        android:id="@+id/AccName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:fontFamily="@font/andika"/>
+
+
+    <TextView
+        android:id="@+id/Debit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:fontFamily="@font/andika"/>
+
+
+    <TextView
+        android:id="@+id/Credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:fontFamily="@font/andika"/>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity=""-->
+<!--        android:orientation="vertical">-->
+
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/editText"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:ems="10"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:inputType="textPersonName"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Double tab to Zoom"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:fontFamily="@font/andika"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textStyle="bold" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.github.chrisbanes.photoview.PhotoView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/userImage"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="300dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="300dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layoutDirection="rtl">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        </com.github.chrisbanes.photoview.PhotoView>&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

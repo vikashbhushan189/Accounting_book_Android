@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B00BCD4"
+    tools:context="vikashbhushan.example.accountingbook.ownerFunction1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="400dp"
+        android:layout_height="551dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/background5_xxxhdpi" />
+
+    <EditText
+        android:id="@+id/fromDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toDate"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:hint="From Date:  YYYYMMDD"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/toDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recyclerView"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="To Date: YYYYMMDD"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recyclerView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTintMode="multiply"
+        android:backgroundTint="#4B9DCA"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:shadowRadius="10"
+        android:text="search" />
+
+</RelativeLayout>

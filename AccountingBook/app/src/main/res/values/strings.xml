@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Accounting Book</string>
+    <string name="update"> Update record </string>
+    <string name="delete">  Delete Current Record </string>
+</resources>

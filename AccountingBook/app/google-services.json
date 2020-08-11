@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "287030647007",
+    "firebase_url": "https://accounting-book-5401b.firebaseio.com",
+    "project_id": "accounting-book-5401b",
+    "storage_bucket": "accounting-book-5401b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287030647007:android:d76f751ab4516d7eb7716a",
+        "android_client_info": {
+          "package_name": "vikashbhushan.example.accountingbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287030647007-4j5pq90l2868o6u8kd05mm63dma3uirh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vikashbhushan.example.accountingbook",
+            "certificate_hash": "ed8ddaad55b5c00e5279ee1c3c7b6c51543553b6"
+          }
+        },
+        {
+          "client_id": "287030647007-l0lh074uhlf2rur4am1odsdlunr0oj56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxy5Wf28rTiz1d0mtmJoRBGXHxbt2bj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287030647007-l0lh074uhlf2rur4am1odsdlunr0oj56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
